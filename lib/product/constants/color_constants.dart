@@ -10,4 +10,6 @@ class ColorConstants {
   static const onboardSkipTextColor = Color(0xff4B5563);
   static const onboardIndicatorColor = Color(0xff32B768);
   static const onboardUnselectedIndicatorColor = Color(0xffE6E6E6);
+  static const loginButtonColor = Color(0xffD1FAE5);
+  static const loginButtonTextColor = Color(0xff10B981);
 }

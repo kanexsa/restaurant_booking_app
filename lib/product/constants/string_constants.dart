@@ -14,4 +14,9 @@ class StringConstants {
   static const onboardSubtitleTextThird =
       'You can eat at expensive restaurants with affordable price';
   static const onBoardSkipText = 'Skip';
+  static const welcomePageTitle = 'Welcome';
+  static const welcomePageSubtitle =
+      'Before enjoying Foodmedia services. Please register first';
+  static const loginButtonText = 'Login';
+  static const createAccountButtonText = 'Create Account';
 }
