@@ -1,4 +1,4 @@
-import 'package:restaurant_booking_app/product/constants/image_constants.dart';
+import 'package:restaurant_booking_app/product/enums/image_constants.dart';
 import 'package:restaurant_booking_app/product/constants/string_constants.dart';
 
 class OnboardModel {
@@ -7,8 +7,6 @@ class OnboardModel {
   final String image;
 
   OnboardModel(this.title, this.subtitle, this.image);
-
-  String get imageWithPath => 'assets/images/$image.png';
 }
 
 class OnBoardItems {
@@ -16,14 +14,14 @@ class OnBoardItems {
     OnboardModel(
         StringConstants.onboardTitleTextFirst,
         StringConstants.onboardSubtitleTextFirst,
-        ImageConstants.onboardFirstImage),
+        ImageConstants.onboardFirstImage.imageWithPath),
     OnboardModel(
         StringConstants.onboardTitleTextSecond,
         StringConstants.onboardSubtitleTextSecond,
-        ImageConstants.onboardSecondImage),
+        ImageConstants.onboardSecondImage.imageWithPath),
     OnboardModel(
         StringConstants.onboardTitleTextThird,
         StringConstants.onboardSubtitleTextThird,
-        ImageConstants.onboardThirdImage),
+        ImageConstants.onboardThirdImage.imageWithPath),
   ];
 }
