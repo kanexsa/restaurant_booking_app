@@ -39,6 +39,8 @@ class _bottomWidget extends StatelessWidget {
           backgroundColor: ColorConstants.onboardIndicatorColor,
           textColor: ColorConstants.backgroundColor,
           text: StringConstants.createAccountButtonText,
+          isLogin: false,
+          isCreate: true,
         ),
         Padding(
           padding: context.paddingLow,
@@ -46,6 +48,8 @@ class _bottomWidget extends StatelessWidget {
             backgroundColor: ColorConstants.loginButtonColor,
             textColor: ColorConstants.loginButtonTextColor,
             text: StringConstants.loginButtonText,
+            isLogin: true,
+            isCreate: false,
           ),
         ),
         Padding(
