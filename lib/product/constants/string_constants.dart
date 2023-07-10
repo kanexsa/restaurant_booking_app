@@ -19,4 +19,8 @@ class StringConstants {
       'Before enjoying Foodmedia services. Please register first';
   static const loginButtonText = 'Login';
   static const createAccountButtonText = 'Create Account';
+  static const registrationButtonText = "Registration";
+  static const signUpWithGoogleButtonText = "Sign up with Google";
+  static const loginWithGoogleButtonText = "Login with Google";
+  static const forgotPasswordText = "Forgot Password";
 }

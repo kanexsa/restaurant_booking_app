@@ -2,7 +2,8 @@ enum ImageConstants {
   onboardFirstImage('onboardfirst'),
   onboardSecondImage('onboardtwo'),
   onboardThirdImage('onboardthree'),
-  welcomePageImage('welcomepage');
+  welcomePageImage('welcomepage'),
+  googleIcon('google');
 
   final String value;
 
